@@ -232,7 +232,11 @@ header #menu-btn:hover{
 /*--------------------- 4- Home Area CSS (Start) ---------------------*/
 .home{
     padding: 0rem 5%;
-    background-color: var(--colorprueba);
+    /*background-color: var(--colorprueba);*/
+     background-image: url("../images/Home/fondopagina3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
@@ -301,8 +305,10 @@ header #menu-btn:hover{
     text-transform: none;
 }
 
+/*cambiar color de palabraa automaticas */
 .home .content h1 span{
-    color: var(--blue);
+    /*color: var(--blue);*/
+    color: var(--black);
 
 }
 
